@@ -1,0 +1,149 @@
+.back-button {
+    padding-top: 15px;
+    padding-left: 1vw;
+    margin-bottom: -1vw;
+}
+
+.error-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5vw;
+    width: 60vw;
+    color: #3C4E59;
+}
+
+.error-wrapper h1 {
+    font-size: 8vw;
+}
+
+.error-wrapper h3 {
+    margin-top: -5vw;
+    font-size: 3vw;
+}
+
+.home-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-icons {
+    vertical-align: middle;
+    margin-top: -0.5rem;
+    padding-right: 0.5rem;
+  }
+
+.weather-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 75vh;
+    margin: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: auto;
+    animation: fadeIn 1s;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 2px;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    padding-left: 5.5vw;
+    margin-top: -6vw;
+}
+
+.row-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: -2.5vw; */
+}
+
+.row-4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2vw;
+}
+
+.loading-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.loading {
+    width: 50px;
+}
+
+.w-icon {
+    width: 15vw;
+    margin-right: 30px;
+}
+
+.w-temp {
+    font-size: 12vw;
+    margin: 2px;
+    padding-left: 4vw;
+    color: #3C4E59;
+    z-index: 1;
+}
+
+.hi-lo {
+    color: #3C4E59;
+    font-size: 2vw;
+    z-index: 2;
+}
+
+.w-deg-l {
+    position: relative;
+    bottom: 20%;
+    left: 2%;
+    font-size: 7vw;
+    color: #3C4E59
+
+}
+
+.w-deg-s {
+    position: relative;
+    bottom: 5%;
+    left: 3%;
+    font-size: 2vw;
+    color: #3C4E59
+
+}
+
+.w-city {
+    margin-top: -2vh;
+    font-size: 3vw;
+    color: white;
+}
+
+.w-realfeel, .w-sunrise, .w-sunset {
+    margin-top: -1.5vw;
+    color: #3C4E59;
+}
+
+.music-section {
+    width: 40%;
+    height: 75vh;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

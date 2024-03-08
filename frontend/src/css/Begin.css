@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: 'fira_sanssemibold';
+    src: url('./fonts/firasans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    background-color: #799CB2;
+    font-family: 'fira_sanssemibold';
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.emoji-title {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.zip-form {
+    padding: 6vw;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.zip-form-label {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.zip-form-input {
+    height: 40px;
+    text-align: center;
+    background-color: #fff;
+    color: #799CB2;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px;
+}
+
+.button-wrapper {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    font-size: 1.5rem;
+    width: 270px;
+    height: 40px;
+    background-color: #7F8386;
+    color: #fff;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: 50%;
+}
