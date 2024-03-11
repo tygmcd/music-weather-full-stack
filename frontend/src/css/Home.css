@@ -1,7 +1,7 @@
 .back-button {
-    padding-top: 15px;
-    padding-left: 1vw;
-    margin-bottom: -1vw;
+    position: absolute;
+    top: 1.5vw;
+    left: 1.5vw;
 }
 
 .error-wrapper {
@@ -26,6 +26,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 3vw;
+    height: 100vh;
 }
 
 .react-icons {
@@ -38,8 +40,7 @@
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: 75vh;
-    margin: 50px;
+    height: 40vw;
     border: 2px solid white;
     border-radius: 10px;
     overflow: auto;
@@ -77,6 +78,7 @@
 
 .loading-wrapper {
     width: 100vw;
+    margin: 22vw;
     display: flex;
     justify-content: center;
 
@@ -135,11 +137,49 @@
 }
 
 .music-section {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
     width: 40%;
-    height: 75vh;
+    height: 40vw;
     border: 2px solid white;
     border-radius: 10px;
+    animation: fadeIn 1s;
 
+}
+
+.m-desc {
+    display: flex;
+    width: 80%;
+    color:#3C4E59;
+    text-align: center;
+}
+
+.m-songs {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+}
+
+.m-song {
+    color:#3C4E59;
+    font-size: 1.25vw;
+    margin: 0.5vw;
+}
+
+.m-desc h1 {
+    font-size: 2vw;
+}
+
+.m-song-title {
+    font-size: 1.75vw;
+}
+
+.m-song-artist {
+    font-size: 1.1vw;
+    color: white;
+    opacity: 70%;
 }
 
 
@@ -147,3 +187,4 @@
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+

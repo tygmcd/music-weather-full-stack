@@ -1,4 +1,7 @@
 venv/
 server/venv/
 
+.env
+.vscode
+
 .DS_Store
