@@ -53,8 +53,8 @@ const Home = () => {
                     </div>
                     <div className="row-4">
                         <p className="w-realfeel">Feels Like: { Math.round((weatherData.main.feels_like - 273.15) * 1.8 + 32)}<span className="w-deg-s">&deg;</span></p>
-                        <p className="w-sunrise"><FiSunrise color="#ffa700" />{ UnixToDate(weatherData.sys.sunrise, weatherData.timezone) }</p>
-                        <p className="w-sunset"><FiSunset color="#2F1D7E"/>{ UnixToDate(weatherData.sys.sunset, weatherData.timezone) }</p>
+                        <p className="w-sunrise"><FiSunrise color="#ffa700" />{ UnixToDate(weatherData.sys.sunrise) }</p>
+                        <p className="w-sunset"><FiSunset color="#2F1D7E"/>{ UnixToDate(weatherData.sys.sunset) }</p>
                     </div>
                 </div> 
                 <div className="music-section">
